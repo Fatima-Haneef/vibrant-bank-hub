@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -12,7 +11,7 @@ const transactionsData = [
     description: 'Monthly subscription',
     amount: 9.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'subscription',
     merchant: {
       name: 'Spotify',
@@ -26,7 +25,7 @@ const transactionsData = [
     description: 'Lunch with team',
     amount: 42.50,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'dining',
     merchant: {
       name: 'Downtown Cafe',
@@ -40,7 +39,7 @@ const transactionsData = [
     description: 'Salary deposit',
     amount: 3500.00,
     currency: 'USD',
-    type: 'credit',
+    type: 'credit' as 'credit' | 'debit',
     category: 'income',
     merchant: {
       name: 'ABC Corporation',
@@ -54,7 +53,7 @@ const transactionsData = [
     description: 'Phone bill payment',
     amount: 89.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'utilities',
     merchant: {
       name: 'Telecom Inc.',
@@ -68,7 +67,7 @@ const transactionsData = [
     description: 'Grocery shopping',
     amount: 137.28,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'shopping',
     merchant: {
       name: 'Whole Foods Market',
@@ -82,7 +81,7 @@ const transactionsData = [
     description: 'Online purchase',
     amount: 79.95,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'shopping',
     merchant: {
       name: 'Amazon',
@@ -96,7 +95,7 @@ const transactionsData = [
     description: 'Gas station',
     amount: 45.23,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'transportation',
     merchant: {
       name: 'Shell Gas',
@@ -110,7 +109,7 @@ const transactionsData = [
     description: 'Interest earned',
     amount: 12.87,
     currency: 'USD',
-    type: 'credit',
+    type: 'credit' as 'credit' | 'debit',
     category: 'income',
     merchant: {
       name: 'VibrantBank',
@@ -124,7 +123,7 @@ const transactionsData = [
     description: 'Gym membership',
     amount: 59.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'subscription',
     merchant: {
       name: 'FitLife Gym',
@@ -138,7 +137,7 @@ const transactionsData = [
     description: 'Money transfer to John',
     amount: 150.00,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'transfer',
     merchant: {
       name: 'John Smith',
@@ -152,7 +151,7 @@ const transactionsData = [
     description: 'Movie tickets',
     amount: 32.50,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'entertainment',
     merchant: {
       name: 'Cineplex',
@@ -166,7 +165,7 @@ const transactionsData = [
     description: 'Internet bill',
     amount: 79.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'utilities',
     merchant: {
       name: 'FastNet Provider',
@@ -180,7 +179,7 @@ const transactionsData = [
     description: 'Rent payment',
     amount: 1200.00,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'housing',
     merchant: {
       name: 'Sunshine Properties',
@@ -194,7 +193,7 @@ const transactionsData = [
     description: 'Coffee shop',
     amount: 5.75,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'dining',
     merchant: {
       name: 'Urban Brew',
@@ -208,7 +207,7 @@ const transactionsData = [
     description: 'Check deposit',
     amount: 250.00,
     currency: 'USD',
-    type: 'credit',
+    type: 'credit' as 'credit' | 'debit',
     category: 'income',
     merchant: {
       name: 'Michael Johnson',

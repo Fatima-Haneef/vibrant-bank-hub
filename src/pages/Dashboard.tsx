@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
@@ -60,7 +59,7 @@ const transactionsData = [
     description: 'Monthly subscription',
     amount: 9.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'subscription',
     merchant: {
       name: 'Spotify',
@@ -72,7 +71,7 @@ const transactionsData = [
     description: 'Lunch with team',
     amount: 42.50,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'dining',
     merchant: {
       name: 'Downtown Cafe',
@@ -84,7 +83,7 @@ const transactionsData = [
     description: 'Salary deposit',
     amount: 3500.00,
     currency: 'USD',
-    type: 'credit',
+    type: 'credit' as 'credit' | 'debit',
     category: 'income',
     merchant: {
       name: 'ABC Corporation',
@@ -96,7 +95,7 @@ const transactionsData = [
     description: 'Phone bill payment',
     amount: 89.99,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'utilities',
     merchant: {
       name: 'Telecom Inc.',
@@ -108,7 +107,7 @@ const transactionsData = [
     description: 'Grocery shopping',
     amount: 137.28,
     currency: 'USD',
-    type: 'debit',
+    type: 'debit' as 'credit' | 'debit',
     category: 'shopping',
     merchant: {
       name: 'Whole Foods Market',

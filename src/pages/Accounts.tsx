@@ -14,7 +14,7 @@ const accountsData = {
       number: '1234567890',
       balance: 4750.85,
       currency: 'USD',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
     {
       id: 'ch2',
@@ -23,7 +23,7 @@ const accountsData = {
       number: '9876543210',
       balance: 3250.75,
       currency: 'USD',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
   ],
   savings: [
@@ -35,7 +35,7 @@ const accountsData = {
       balance: 12350.42,
       currency: 'USD',
       interestRate: 2.5,
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
     {
       id: 'sv2',
@@ -45,7 +45,7 @@ const accountsData = {
       balance: 8200.15,
       currency: 'USD',
       interestRate: 3.75,
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
     {
       id: 'sv3',
@@ -55,7 +55,7 @@ const accountsData = {
       balance: 2500.00,
       currency: 'USD',
       interestRate: 2.5,
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
   ],
   credit: [
@@ -68,7 +68,7 @@ const accountsData = {
       currency: 'USD',
       availableCredit: 3759.44,
       dueDate: '2025-04-25',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
     {
       id: 'cc2',
@@ -79,7 +79,7 @@ const accountsData = {
       currency: 'USD',
       availableCredit: 9349.75,
       dueDate: '2025-04-18',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
   ],
   investment: [
@@ -90,7 +90,7 @@ const accountsData = {
       number: '3456789012',
       balance: 78500.42,
       currency: 'USD',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
     {
       id: 'inv2',
@@ -99,7 +99,7 @@ const accountsData = {
       number: '6789012345',
       balance: 25750.88,
       currency: 'USD',
-      status: 'active',
+      status: 'active' as 'active' | 'inactive' | 'pending',
     },
   ],
 };
